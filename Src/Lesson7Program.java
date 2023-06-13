@@ -1,8 +1,13 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Lesson7Program {
     public static final int MY_NUM = 10;
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("введи число");
+        int bbbbb = sc.nextInt();
+        System.out.println(bbbbb);
         Integer a = new Integer(1);
         Long long1 = new Long(1234);
         long long2 = long1;
